@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="AboutUS.aspx" />
+    <Content Include="branchPage.aspx" />
     <Content Include="Home.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -78,6 +79,13 @@
     </Compile>
     <Compile Include="AboutUS.aspx.designer.cs">
       <DependentUpon>AboutUS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="branchPage.aspx.cs">
+      <DependentUpon>branchPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="branchPage.aspx.designer.cs">
+      <DependentUpon>branchPage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Home.aspx.cs">
       <DependentUpon>Home.aspx</DependentUpon>
