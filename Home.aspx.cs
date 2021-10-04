@@ -11,7 +11,7 @@ namespace GitDemo
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            string strNav = "New Project";
+            string strNav = "New Project;Testing";
         }
     }
 }
