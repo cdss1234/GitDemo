@@ -68,6 +68,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="AboutUS.aspx" />
+    <Content Include="Head\AboutUs.aspx" />
+    <Content Include="Head\Index.aspx" />
     <Content Include="Home.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -78,6 +80,20 @@
     </Compile>
     <Compile Include="AboutUS.aspx.designer.cs">
       <DependentUpon>AboutUS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Head\AboutUs.aspx.cs">
+      <DependentUpon>AboutUs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Head\AboutUs.aspx.designer.cs">
+      <DependentUpon>AboutUs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Head\Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Head\Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
     </Compile>
     <Compile Include="Home.aspx.cs">
       <DependentUpon>Home.aspx</DependentUpon>
